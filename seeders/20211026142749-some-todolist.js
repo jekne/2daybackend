@@ -5,24 +5,28 @@ module.exports = {
     await queryInterface.bulkInsert("todoLists", [
       {
         name: "Johann",
+        userId: 1,
 
         createdAt: new Date(),
         updatedAt: new Date(),
       },
       {
         name: "Carolina",
+        userId: 2,
 
         createdAt: new Date(),
         updatedAt: new Date(),
       },
       {
         name: "Mae",
+        userId: 3,
 
         createdAt: new Date(),
         updatedAt: new Date(),
       },
       {
         name: "Pai",
+        userId: 4,
 
         createdAt: new Date(),
         updatedAt: new Date(),
